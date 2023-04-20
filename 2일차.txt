@@ -1,0 +1,33 @@
+12. <blockquote cite='인용 사이트'> </blockquote>: 내용 전체가 하나의 인용문일 경우 사용
+<q> </ q> (quotation): 문장 내에 들어가는 인용문일 경우 사용
+<cite> </ cite>: 인용 출처
+
+13. <div> </div> (division): 의미가 없으나 css 스타일링에 유용
+<span> </span>: 의미가 없고, text level의 일부분을 grouping해 줄 때, css 스타일링에 유용
+
+14. <form action='' method=''> </form>: 사용자로부터 input을 받기 위한 태그, action='API 주소', method='get | post'
+
+15. <input type='#' />: type이라는 attr을 반드시 명시해야 함 (text, email, password, url, number, file ... ),
+placeholder=''(attr, 공란 상태 기본 문구), maxlength=''(attr, 글자 수 제한),
+minlength=''(attr, 글자 수 제한), required(attr, 무조건 채워야 함), disabled(attr, 막아둠), value=''(attr, 기본값),
+max/min=''(number attr, 수의 크기 제한), accept=''(file attr, 확장자 제한)
+
+16. <label for='인풋id'> <label />: 폼 양식에 이름을 붙히는 태그, for이라는 attr 명시해야 함
+
+17. <input type='radio' />: 여러 가지 항목 중에서 단 하나만 선택, label이랑 같이 쓰기, attr name='#'으로 그루핑하기, value 명시
+<input type='check-box'/>: 여러 가지 항목 중에서 여러 개 선택, label이랑 같이 쓰기, attr name='#'으로 그루핑하기, value 명시
+
+18. <select> </select>: 자식 요소로 <option> </option>사용, attr name은 select에만 주고 option에 value, attr multiple으로 여러 개 선택
+
+19. <textarea> </textarea>: 여러 줄에 걸쳐 글을 쓸 수 있음, attr rows='#'와 attr cols='#'를 통해 사이즈 조정 (css로 조정)
+
+20. <button> </button>: 버튼, attr type='#'으로 button, submit(제출), reset(리셋) 명시
+
+21. <table> </table>: tr으로 가로줄부터
+<tr> </tr> (table row): table 가로줄, 상위 태그 <thead> </ thead>로 감싸주면 좋음
+<th> </th> (table header): 상위 태그 <tbody> </ tbody>로 감싸주면 좋음
+<td> </td> (table data): 상위 태그 <tbody> </ tbody>로 감싸주면 좋음
+
+22. attr rowspan='#': 여러 칸 병합, 병합된 열은 다음 행에서 생략
+attr colspan='#': 여러 칸 병합
+attr scope'row|col': th에만 사용 가능, 브라우저에 인식 도움
