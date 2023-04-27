@@ -1,0 +1,7 @@
+31. image 처리 시 alt에 넣을 말이 없으면 공란으로 만들어 둘 것
+image가 정보로서 가치가 없다면 꾸미는 역할을 css에 넘길 것
+
+33. attr aria-label을 통한 메시지 전달
+
+34. image는 div로 한 번 감싸주기
+aria hidden을 통해 스타일 요소 배제
